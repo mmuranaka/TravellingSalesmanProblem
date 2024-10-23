@@ -54,3 +54,11 @@ The program can be executed with the line:
 - `P2` is a parameter specifying:
   - cooling parameter for simulated annealing
   - mutation probability for genetic algorithm
+
+Following this running of the algorithm, the program will output information about the process like the initial and final solution, the command line parameters, number of iterations, execution time, and final path cost. Further, the program will produce a csv file containing the total cost as a result of the algorithm and the path taken for that result. The csv file will be named:
+`INPUTFILENAME_SOLUTION_AA.csv`
+
+- `INPUTFILENAME` is the name of the input file
+- `AA` specifies the algorithm that was used
+  - `SA` specifies simulated annealing
+  - `GA` specifies genetic algorithm
